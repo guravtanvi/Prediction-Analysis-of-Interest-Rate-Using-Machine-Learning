@@ -1,1 +1,1 @@
-# guravtanvi-Prediction-Analysis-of-Interest-Rate-Using-Machine-Learning
+# Prediction-Analysis-of-Interest-Rate-Using-Machine-Learning
