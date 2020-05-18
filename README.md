@@ -1,7 +1,5 @@
 # Prediction-Analysis-of-Interest-Rate-Using-Machine-Learning
 
-This Project is based on Prediction of Interest Rates of Loans from the Lending Club Loan Data.
-
 Steps to Regenerate the Project:
 
 Clone the Project into any directory of your choice
