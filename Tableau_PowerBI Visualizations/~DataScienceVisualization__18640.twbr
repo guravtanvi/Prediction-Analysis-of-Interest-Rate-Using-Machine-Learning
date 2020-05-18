@@ -1,0 +1,3241 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0323.1706                               -->
+<workbook source-build='2019.4.5 (20194.20.0323.1706)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <MapboxVectorStylesAndLayers />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (pred_int)' inline='true' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='pred_int' name='excel-direct.18vibx21qq5wpi11kgse90fgc2w2'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/aakash/Documents/Data Science Final Project/Lending-Club-Interest-Rate-Prediction-Using-Supervised-ML-master/Data/Test Data/pred_int.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.18vibx21qq5wpi11kgse90fgc2w2' name='Predicted' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:BW73:no:A1:BW73:0' header='yes' outcome='2'>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='integer' name='member_id' ordinal='1' />
+            <column datatype='integer' name='loan_amnt' ordinal='2' />
+            <column datatype='integer' name='funded_amnt' ordinal='3' />
+            <column datatype='real' name='funded_amnt_inv' ordinal='4' />
+            <column datatype='string' name='term' ordinal='5' />
+            <column datatype='real' name='int_rate' ordinal='6' />
+            <column datatype='real' name='pred_int' ordinal='7' />
+            <column datatype='real' name='installment' ordinal='8' />
+            <column datatype='string' name='grade' ordinal='9' />
+            <column datatype='string' name='sub_grade' ordinal='10' />
+            <column datatype='string' name='emp_title' ordinal='11' />
+            <column datatype='string' name='emp_length' ordinal='12' />
+            <column datatype='string' name='home_ownership' ordinal='13' />
+            <column datatype='real' name='annual_inc' ordinal='14' />
+            <column datatype='string' name='verification_status' ordinal='15' />
+            <column datatype='date' name='issue_d' ordinal='16' />
+            <column datatype='string' name='loan_status' ordinal='17' />
+            <column datatype='string' name='pymnt_plan' ordinal='18' />
+            <column datatype='string' name='url' ordinal='19' />
+            <column datatype='string' name='desc' ordinal='20' />
+            <column datatype='string' name='purpose' ordinal='21' />
+            <column datatype='string' name='title' ordinal='22' />
+            <column datatype='string' name='zip_code' ordinal='23' />
+            <column datatype='string' name='addr_state' ordinal='24' />
+            <column datatype='real' name='dti' ordinal='25' />
+            <column datatype='integer' name='delinq_2yrs' ordinal='26' />
+            <column datatype='date' name='earliest_cr_line' ordinal='27' />
+            <column datatype='integer' name='inq_last_6mths' ordinal='28' />
+            <column datatype='integer' name='mths_since_last_delinq' ordinal='29' />
+            <column datatype='integer' name='mths_since_last_record' ordinal='30' />
+            <column datatype='integer' name='open_acc' ordinal='31' />
+            <column datatype='integer' name='pub_rec' ordinal='32' />
+            <column datatype='integer' name='revol_bal' ordinal='33' />
+            <column datatype='real' name='revol_util' ordinal='34' />
+            <column datatype='integer' name='total_acc' ordinal='35' />
+            <column datatype='string' name='initial_list_status' ordinal='36' />
+            <column datatype='real' name='out_prncp' ordinal='37' />
+            <column datatype='real' name='out_prncp_inv' ordinal='38' />
+            <column datatype='real' name='total_pymnt' ordinal='39' />
+            <column datatype='real' name='total_pymnt_inv' ordinal='40' />
+            <column datatype='real' name='total_rec_prncp' ordinal='41' />
+            <column datatype='real' name='total_rec_int' ordinal='42' />
+            <column datatype='real' name='total_rec_late_fee' ordinal='43' />
+            <column datatype='real' name='recoveries' ordinal='44' />
+            <column datatype='real' name='collection_recovery_fee' ordinal='45' />
+            <column datatype='date' name='last_pymnt_d' ordinal='46' />
+            <column datatype='real' name='last_pymnt_amnt' ordinal='47' />
+            <column datatype='date' name='next_pymnt_d' ordinal='48' />
+            <column datatype='date' name='last_credit_pull_d' ordinal='49' />
+            <column datatype='integer' name='collections_12_mths_ex_med' ordinal='50' />
+            <column datatype='integer' name='mths_since_last_major_derog' ordinal='51' />
+            <column datatype='integer' name='policy_code' ordinal='52' />
+            <column datatype='string' name='application_type' ordinal='53' />
+            <column datatype='integer' name='annual_inc_joint' ordinal='54' />
+            <column datatype='real' name='dti_joint' ordinal='55' />
+            <column datatype='string' name='verification_status_joint' ordinal='56' />
+            <column datatype='integer' name='acc_now_delinq' ordinal='57' />
+            <column datatype='integer' name='tot_coll_amt' ordinal='58' />
+            <column datatype='integer' name='tot_cur_bal' ordinal='59' />
+            <column datatype='integer' name='open_acc_6m' ordinal='60' />
+            <column datatype='integer' name='open_il_6m' ordinal='61' />
+            <column datatype='integer' name='open_il_12m' ordinal='62' />
+            <column datatype='integer' name='open_il_24m' ordinal='63' />
+            <column datatype='integer' name='mths_since_rcnt_il' ordinal='64' />
+            <column datatype='integer' name='total_bal_il' ordinal='65' />
+            <column datatype='real' name='il_util' ordinal='66' />
+            <column datatype='integer' name='open_rv_12m' ordinal='67' />
+            <column datatype='integer' name='open_rv_24m' ordinal='68' />
+            <column datatype='integer' name='max_bal_bc' ordinal='69' />
+            <column datatype='real' name='all_util' ordinal='70' />
+            <column datatype='integer' name='total_rev_hi_lim' ordinal='71' />
+            <column datatype='integer' name='inq_fi' ordinal='72' />
+            <column datatype='integer' name='total_cu_tl' ordinal='73' />
+            <column datatype='integer' name='inq_last_12m' ordinal='74' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>member_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[member_id]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>member_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_amnt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[loan_amnt]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>loan_amnt</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>funded_amnt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[funded_amnt]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>funded_amnt</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>funded_amnt_inv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[funded_amnt_inv]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>funded_amnt_inv</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>term</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[term]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>term</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[int_rate]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>int_rate</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pred_int</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pred_int]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>pred_int</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>installment</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[installment]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>installment</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>grade</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[grade]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>grade</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sub_grade</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[sub_grade]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>sub_grade</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[emp_title]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>emp_title</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_length</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[emp_length]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>emp_length</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>home_ownership</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[home_ownership]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>home_ownership</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annual_inc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[annual_inc]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>annual_inc</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>verification_status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[verification_status]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>verification_status</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>issue_d</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[issue_d]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>issue_d</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[loan_status]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>loan_status</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pymnt_plan</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pymnt_plan]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>pymnt_plan</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>desc</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[desc]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>desc</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>purpose</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[purpose]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>purpose</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zip_code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[zip_code]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>zip_code</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>addr_state</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[addr_state]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>addr_state</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dti</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dti]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>dti</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>delinq_2yrs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[delinq_2yrs]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>delinq_2yrs</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>earliest_cr_line</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[earliest_cr_line]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>earliest_cr_line</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>inq_last_6mths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[inq_last_6mths]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>inq_last_6mths</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mths_since_last_delinq</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mths_since_last_delinq]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>mths_since_last_delinq</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mths_since_last_record</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mths_since_last_record]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>mths_since_last_record</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_acc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[open_acc]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>open_acc</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pub_rec</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pub_rec]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>pub_rec</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revol_bal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[revol_bal]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>revol_bal</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revol_util</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revol_util]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>revol_util</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_acc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_acc]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_acc</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>initial_list_status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[initial_list_status]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>initial_list_status</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>out_prncp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[out_prncp]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>out_prncp</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>out_prncp_inv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[out_prncp_inv]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>out_prncp_inv</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_pymnt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_pymnt]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_pymnt</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_pymnt_inv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_pymnt_inv]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_pymnt_inv</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_rec_prncp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_rec_prncp]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_rec_prncp</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_rec_int</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_rec_int]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_rec_int</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_rec_late_fee</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_rec_late_fee]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_rec_late_fee</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>recoveries</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[recoveries]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>recoveries</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>collection_recovery_fee</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[collection_recovery_fee]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>collection_recovery_fee</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_pymnt_d</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[last_pymnt_d]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>last_pymnt_d</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_pymnt_amnt</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[last_pymnt_amnt]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>last_pymnt_amnt</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>next_pymnt_d</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[next_pymnt_d]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>next_pymnt_d</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_credit_pull_d</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[last_credit_pull_d]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>last_credit_pull_d</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>collections_12_mths_ex_med</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[collections_12_mths_ex_med]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>collections_12_mths_ex_med</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mths_since_last_major_derog</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mths_since_last_major_derog]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>mths_since_last_major_derog</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>policy_code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[policy_code]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>policy_code</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>application_type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[application_type]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>application_type</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>annual_inc_joint</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[annual_inc_joint]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>annual_inc_joint</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dti_joint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dti_joint]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>dti_joint</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>verification_status_joint</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[verification_status_joint]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>verification_status_joint</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acc_now_delinq</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[acc_now_delinq]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>acc_now_delinq</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tot_coll_amt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tot_coll_amt]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>tot_coll_amt</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tot_cur_bal</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tot_cur_bal]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>tot_cur_bal</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_acc_6m</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[open_acc_6m]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>open_acc_6m</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_il_6m</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[open_il_6m]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>open_il_6m</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_il_12m</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[open_il_12m]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>open_il_12m</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_il_24m</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[open_il_24m]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>open_il_24m</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mths_since_rcnt_il</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[mths_since_rcnt_il]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>mths_since_rcnt_il</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_bal_il</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_bal_il]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_bal_il</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>il_util</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[il_util]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>il_util</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_rv_12m</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[open_rv_12m]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>open_rv_12m</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_rv_24m</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[open_rv_24m]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>open_rv_24m</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>max_bal_bc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[max_bal_bc]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>max_bal_bc</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>all_util</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[all_util]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>all_util</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_rev_hi_lim</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_rev_hi_lim]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_rev_hi_lim</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>inq_fi</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[inq_fi]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>inq_fi</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_cu_tl</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_cu_tl]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>total_cu_tl</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>inq_last_12m</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[inq_last_12m]</local-name>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias>inq_last_12m</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Predicted]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BW73:no:A1:BW73:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Acc Now Delinq' datatype='integer' name='[acc_now_delinq]' role='measure' type='quantitative' />
+      <column caption='Addr State' datatype='string' name='[addr_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='All Util' datatype='real' name='[all_util]' role='measure' type='quantitative' />
+      <column caption='Annual Inc' datatype='real' name='[annual_inc]' role='measure' type='quantitative' />
+      <column caption='Annual Inc Joint' datatype='integer' name='[annual_inc_joint]' role='measure' type='quantitative' />
+      <column caption='Application Type' datatype='string' name='[application_type]' role='dimension' type='nominal' />
+      <column caption='Collection Recovery Fee' datatype='real' name='[collection_recovery_fee]' role='measure' type='quantitative' />
+      <column caption='Collections 12 Mths Ex Med' datatype='integer' name='[collections_12_mths_ex_med]' role='measure' type='quantitative' />
+      <column caption='Delinq 2Yrs' datatype='integer' name='[delinq_2yrs]' role='measure' type='quantitative' />
+      <column caption='Desc' datatype='string' name='[desc]' role='dimension' type='nominal' />
+      <column caption='Dti' datatype='real' name='[dti]' role='measure' type='quantitative' />
+      <column caption='Dti Joint' datatype='real' name='[dti_joint]' role='measure' type='quantitative' />
+      <column caption='Earliest Cr Line' datatype='date' name='[earliest_cr_line]' role='dimension' type='ordinal' />
+      <column caption='Emp Length' datatype='string' name='[emp_length]' role='dimension' type='nominal' />
+      <column caption='Emp Title' datatype='string' name='[emp_title]' role='dimension' type='nominal' />
+      <column caption='Funded Amnt' datatype='integer' name='[funded_amnt]' role='measure' type='quantitative' />
+      <column caption='Funded Amnt Inv' datatype='real' name='[funded_amnt_inv]' role='measure' type='quantitative' />
+      <column caption='Grade' datatype='string' name='[grade]' role='dimension' type='nominal' />
+      <column caption='Home Ownership' datatype='string' name='[home_ownership]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Il Util' datatype='real' name='[il_util]' role='measure' type='quantitative' />
+      <column caption='Initial List Status' datatype='string' name='[initial_list_status]' role='dimension' type='nominal' />
+      <column caption='Inq Fi' datatype='integer' name='[inq_fi]' role='measure' type='quantitative' />
+      <column caption='Inq Last 12M' datatype='integer' name='[inq_last_12m]' role='measure' type='quantitative' />
+      <column caption='Inq Last 6Mths' datatype='integer' name='[inq_last_6mths]' role='measure' type='quantitative' />
+      <column caption='Installment' datatype='real' name='[installment]' role='measure' type='quantitative' />
+      <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+      <column caption='Issue D' datatype='date' name='[issue_d]' role='dimension' type='ordinal' />
+      <column caption='Last Credit Pull D' datatype='date' name='[last_credit_pull_d]' role='dimension' type='ordinal' />
+      <column caption='Last Pymnt Amnt' datatype='real' name='[last_pymnt_amnt]' role='measure' type='quantitative' />
+      <column caption='Last Pymnt D' datatype='date' name='[last_pymnt_d]' role='dimension' type='ordinal' />
+      <column caption='Loan Amnt' datatype='integer' name='[loan_amnt]' role='measure' type='quantitative' />
+      <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+      <column caption='Max Bal Bc' datatype='integer' name='[max_bal_bc]' role='measure' type='quantitative' />
+      <column caption='Member Id' datatype='integer' name='[member_id]' role='dimension' type='ordinal' />
+      <column caption='Mths Since Last Delinq' datatype='integer' name='[mths_since_last_delinq]' role='measure' type='quantitative' />
+      <column caption='Mths Since Last Major Derog' datatype='integer' name='[mths_since_last_major_derog]' role='measure' type='quantitative' />
+      <column caption='Mths Since Last Record' datatype='integer' name='[mths_since_last_record]' role='measure' type='quantitative' />
+      <column caption='Mths Since Rcnt Il' datatype='integer' name='[mths_since_rcnt_il]' role='measure' type='quantitative' />
+      <column caption='Next Pymnt D' datatype='date' name='[next_pymnt_d]' role='dimension' type='ordinal' />
+      <column caption='Open Acc' datatype='integer' name='[open_acc]' role='measure' type='quantitative' />
+      <column caption='Open Acc 6M' datatype='integer' name='[open_acc_6m]' role='measure' type='quantitative' />
+      <column caption='Open Il 12M' datatype='integer' name='[open_il_12m]' role='measure' type='quantitative' />
+      <column caption='Open Il 24M' datatype='integer' name='[open_il_24m]' role='measure' type='quantitative' />
+      <column caption='Open Il 6M' datatype='integer' name='[open_il_6m]' role='measure' type='quantitative' />
+      <column caption='Open Rv 12M' datatype='integer' name='[open_rv_12m]' role='measure' type='quantitative' />
+      <column caption='Open Rv 24M' datatype='integer' name='[open_rv_24m]' role='measure' type='quantitative' />
+      <column caption='Out Prncp' datatype='real' name='[out_prncp]' role='measure' type='quantitative' />
+      <column caption='Out Prncp Inv' datatype='real' name='[out_prncp_inv]' role='measure' type='quantitative' />
+      <column caption='Policy Code' datatype='integer' name='[policy_code]' role='dimension' type='ordinal' />
+      <column caption='Pred Int' datatype='real' name='[pred_int]' role='measure' type='quantitative' />
+      <column caption='Pub Rec' datatype='integer' name='[pub_rec]' role='measure' type='quantitative' />
+      <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+      <column caption='Pymnt Plan' datatype='string' name='[pymnt_plan]' role='dimension' type='nominal' />
+      <column caption='Recoveries' datatype='real' name='[recoveries]' role='measure' type='quantitative' />
+      <column caption='Revol Bal' datatype='integer' name='[revol_bal]' role='measure' type='quantitative' />
+      <column caption='Revol Util' datatype='real' name='[revol_util]' role='measure' type='quantitative' />
+      <column caption='Sub Grade' datatype='string' name='[sub_grade]' role='dimension' type='nominal' />
+      <column caption='Term' datatype='string' name='[term]' role='dimension' type='nominal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Tot Coll Amt' datatype='integer' name='[tot_coll_amt]' role='measure' type='quantitative' />
+      <column caption='Tot Cur Bal' datatype='integer' name='[tot_cur_bal]' role='measure' type='quantitative' />
+      <column caption='Total Acc' datatype='integer' name='[total_acc]' role='measure' type='quantitative' />
+      <column caption='Total Bal Il' datatype='integer' name='[total_bal_il]' role='measure' type='quantitative' />
+      <column caption='Total Cu Tl' datatype='integer' name='[total_cu_tl]' role='measure' type='quantitative' />
+      <column caption='Total Pymnt' datatype='real' name='[total_pymnt]' role='measure' type='quantitative' />
+      <column caption='Total Pymnt Inv' datatype='real' name='[total_pymnt_inv]' role='measure' type='quantitative' />
+      <column caption='Total Rec Int' datatype='real' name='[total_rec_int]' role='measure' type='quantitative' />
+      <column caption='Total Rec Late Fee' datatype='real' name='[total_rec_late_fee]' role='measure' type='quantitative' />
+      <column caption='Total Rec Prncp' datatype='real' name='[total_rec_prncp]' role='measure' type='quantitative' />
+      <column caption='Total Rev Hi Lim' datatype='integer' name='[total_rev_hi_lim]' role='measure' type='quantitative' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Verification Status' datatype='string' name='[verification_status]' role='dimension' type='nominal' />
+      <column caption='Verification Status Joint' datatype='string' name='[verification_status_joint]' role='dimension' type='nominal' />
+      <column caption='Zip Code' datatype='string' name='[zip_code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column-instance column='[int_rate]' derivation='Avg' name='[avg:int_rate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[pred_int]' derivation='Avg' name='[avg:pred_int:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[int_rate]' derivation='Sum' name='[sum:int_rate:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[loan_amnt]' derivation='Sum' name='[sum:loan_amnt:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[pred_int]' derivation='Sum' name='[sum:pred_int:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[issue_d]' derivation='Month-Trunc' name='[tmn:issue_d:ok]' pivot='key' type='ordinal' />
+      <extract count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='Data/Test Data/Sheet1 (pred_int).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/12/2020 07:06:12 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Sheet1 (pred_int)' increment-value='%null%' refresh-type='create' rows-inserted='72' timestamp-start='2020-04-12 19:06:12.680' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>member_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[member_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>member_id</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>loan_amnt</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[loan_amnt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>loan_amnt</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>funded_amnt</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[funded_amnt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>funded_amnt</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>funded_amnt_inv</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[funded_amnt_inv]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>funded_amnt_inv</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>44</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>term</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[term]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>term</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>int_rate</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[int_rate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>int_rate</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>56</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pred_int</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[pred_int]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pred_int</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>installment</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[installment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>installment</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>67</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>grade</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[grade]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>grade</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sub_grade</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[sub_grade]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sub_grade</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>emp_title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[emp_title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>emp_title</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>emp_length</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[emp_length]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>emp_length</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>home_ownership</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[home_ownership]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>home_ownership</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>annual_inc</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[annual_inc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>annual_inc</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>55</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>verification_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[verification_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>verification_status</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>issue_d</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[issue_d]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>issue_d</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Predicted</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>loan_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[loan_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>loan_status</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pymnt_plan</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pymnt_plan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pymnt_plan</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>url</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[url]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>url</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>desc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[desc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>desc</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>purpose</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[purpose]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>purpose</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>title</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>57</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>zip_code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[zip_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>zip_code</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>64</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>addr_state</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[addr_state]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>addr_state</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dti</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[dti]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dti</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>delinq_2yrs</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[delinq_2yrs]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>delinq_2yrs</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>earliest_cr_line</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[earliest_cr_line]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>earliest_cr_line</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Predicted</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>62</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>inq_last_6mths</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[inq_last_6mths]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>inq_last_6mths</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mths_since_last_delinq</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mths_since_last_delinq]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mths_since_last_delinq</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mths_since_last_record</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mths_since_last_record]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mths_since_last_record</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>open_acc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[open_acc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>open_acc</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pub_rec</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pub_rec]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pub_rec</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>revol_bal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[revol_bal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>revol_bal</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>revol_util</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[revol_util]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>revol_util</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_acc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_acc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_acc</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>initial_list_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[initial_list_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>initial_list_status</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>out_prncp</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[out_prncp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>out_prncp</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>out_prncp_inv</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[out_prncp_inv]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>out_prncp_inv</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_pymnt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_pymnt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_pymnt</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_pymnt_inv</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_pymnt_inv]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_pymnt_inv</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_rec_prncp</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_rec_prncp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_rec_prncp</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>49</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_rec_int</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_rec_int]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_rec_int</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_rec_late_fee</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[total_rec_late_fee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_rec_late_fee</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>recoveries</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[recoveries]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>recoveries</remote-alias>
+              <ordinal>44</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>collection_recovery_fee</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[collection_recovery_fee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>collection_recovery_fee</remote-alias>
+              <ordinal>45</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>last_pymnt_d</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[last_pymnt_d]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>last_pymnt_d</remote-alias>
+              <ordinal>46</ordinal>
+              <family>Predicted</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>last_pymnt_amnt</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[last_pymnt_amnt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>last_pymnt_amnt</remote-alias>
+              <ordinal>47</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>70</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>next_pymnt_d</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[next_pymnt_d]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>next_pymnt_d</remote-alias>
+              <ordinal>48</ordinal>
+              <family>Predicted</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>last_credit_pull_d</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[last_credit_pull_d]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>last_credit_pull_d</remote-alias>
+              <ordinal>49</ordinal>
+              <family>Predicted</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>collections_12_mths_ex_med</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[collections_12_mths_ex_med]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>collections_12_mths_ex_med</remote-alias>
+              <ordinal>50</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mths_since_last_major_derog</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mths_since_last_major_derog]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mths_since_last_major_derog</remote-alias>
+              <ordinal>51</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>policy_code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[policy_code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>policy_code</remote-alias>
+              <ordinal>52</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>application_type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[application_type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>application_type</remote-alias>
+              <ordinal>53</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>annual_inc_joint</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[annual_inc_joint]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>annual_inc_joint</remote-alias>
+              <ordinal>54</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dti_joint</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[dti_joint]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dti_joint</remote-alias>
+              <ordinal>55</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>verification_status_joint</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[verification_status_joint]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>verification_status_joint</remote-alias>
+              <ordinal>56</ordinal>
+              <family>Predicted</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acc_now_delinq</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[acc_now_delinq]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acc_now_delinq</remote-alias>
+              <ordinal>57</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tot_coll_amt</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[tot_coll_amt]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tot_coll_amt</remote-alias>
+              <ordinal>58</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tot_cur_bal</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[tot_cur_bal]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tot_cur_bal</remote-alias>
+              <ordinal>59</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>open_acc_6m</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[open_acc_6m]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>open_acc_6m</remote-alias>
+              <ordinal>60</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>open_il_6m</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[open_il_6m]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>open_il_6m</remote-alias>
+              <ordinal>61</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>open_il_12m</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[open_il_12m]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>open_il_12m</remote-alias>
+              <ordinal>62</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>open_il_24m</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[open_il_24m]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>open_il_24m</remote-alias>
+              <ordinal>63</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mths_since_rcnt_il</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[mths_since_rcnt_il]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mths_since_rcnt_il</remote-alias>
+              <ordinal>64</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_bal_il</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_bal_il]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_bal_il</remote-alias>
+              <ordinal>65</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>il_util</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[il_util]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>il_util</remote-alias>
+              <ordinal>66</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>open_rv_12m</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[open_rv_12m]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>open_rv_12m</remote-alias>
+              <ordinal>67</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>open_rv_24m</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[open_rv_24m]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>open_rv_24m</remote-alias>
+              <ordinal>68</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>max_bal_bc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[max_bal_bc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>max_bal_bc</remote-alias>
+              <ordinal>69</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>all_util</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[all_util]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>all_util</remote-alias>
+              <ordinal>70</ordinal>
+              <family>Predicted</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_rev_hi_lim</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_rev_hi_lim]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_rev_hi_lim</remote-alias>
+              <ordinal>71</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>inq_fi</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[inq_fi]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>inq_fi</remote-alias>
+              <ordinal>72</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_cu_tl</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_cu_tl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_cu_tl</remote-alias>
+              <ordinal>73</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>inq_last_12m</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[inq_last_12m]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>inq_last_12m</remote-alias>
+              <ordinal>74</ordinal>
+              <family>Predicted</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' dim-percentage='0.544096' measure-ordering='alphabetic' measure-percentage='0.455904' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:int_rate:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:pred_int:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:pred_int:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[tmn:issue_d:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>#2019-09-01 00:00:00#</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>#2019-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>#2019-05-01 00:00:00#</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>#2019-10-01 00:00:00#</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>#2019-06-01 00:00:00#</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>#2019-02-01 00:00:00#</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>#2019-07-01 00:00:00#</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>#2019-11-01 00:00:00#</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>#2019-08-01 00:00:00#</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>#2019-03-01 00:00:00#</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>#2019-12-01 00:00:00#</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>#2019-04-01 00:00:00#</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Interest Rate v/s Grades'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Interest Rate v/s Grades&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (pred_int)' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07mu8pm1cfiesu14cz5m41h30yq2'>
+            <column-instance column='[int_rate]' derivation='Avg' name='[avg:int_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Grade' datatype='string' name='[grade]' role='dimension' type='nominal' />
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column-instance column='[grade]' derivation='None' name='[none:grade:nk]' pivot='key' type='nominal' />
+            <column-instance column='[term]' derivation='None' name='[none:term:nk]' pivot='key' type='nominal' />
+            <column caption='Term' datatype='string' name='[term]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <encodings>
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:term:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.60000002384185791' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]</rows>
+        <cols>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:grade:nk]</cols>
+      </table>
+      <simple-id uuid='{199A3D77-14A8-4F86-B7D9-6B1A96F0FD28}' />
+    </worksheet>
+    <worksheet name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Loan Grade and Avg Interest Rate by Purpose and Loan Status</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (pred_int)' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07mu8pm1cfiesu14cz5m41h30yq2'>
+            <column-instance column='[int_rate]' derivation='Avg' name='[avg:int_rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pred_int]' derivation='Avg' name='[avg:pred_int:qk]' pivot='key' type='quantitative' />
+            <column caption='Grade' datatype='string' name='[grade]' role='dimension' type='nominal' />
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[grade]' derivation='None' name='[none:grade:nk]' pivot='key' type='nominal' />
+            <column-instance column='[loan_status]' derivation='None' name='[none:loan_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[purpose]' derivation='None' name='[none:purpose:nk]' pivot='key' type='nominal' />
+            <column caption='Pred Int' datatype='real' name='[pred_int]' role='measure' type='quantitative' />
+            <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:pred_int:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]'>
+            <groupfilter function='level-members' level='[none:loan_status:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]'>
+            <groupfilter function='member' level='[none:purpose:nk]' member='&quot;credit_card&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]</column>
+            <column>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]</column>
+            <column>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[Multiple Values]</rows>
+        <cols>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:grade:nk]</cols>
+      </table>
+      <simple-id uuid='{A4B457FF-FD6A-49C7-A69F-C960D0C43B52}' />
+    </worksheet>
+    <worksheet name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>Loan Grade and Avg Interest Rate by Purpose and Loan Status</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (pred_int)' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07mu8pm1cfiesu14cz5m41h30yq2'>
+            <column-instance column='[int_rate]' derivation='Avg' name='[avg:int_rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pred_int]' derivation='Avg' name='[avg:pred_int:qk]' pivot='key' type='quantitative' />
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column caption='Issue D' datatype='date' name='[issue_d]' role='dimension' type='ordinal' />
+            <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+            <column-instance column='[issue_d]' derivation='Month' name='[mn:issue_d:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[loan_status]' derivation='None' name='[none:loan_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[purpose]' derivation='None' name='[none:purpose:nk]' pivot='key' type='nominal' />
+            <column caption='Pred Int' datatype='real' name='[pred_int]' role='measure' type='quantitative' />
+            <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+            <column-instance column='[issue_d]' derivation='Year' name='[yr:issue_d:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]'>
+            <groupfilter function='level-members' level='[none:loan_status:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]'>
+            <groupfilter function='member' level='[none:purpose:nk]' member='&quot;credit_card&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]</column>
+            <column>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:pred_int:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:pred_int:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk] + [federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:pred_int:qk])</rows>
+        <cols>([federated.07mu8pm1cfiesu14cz5m41h30yq2].[yr:issue_d:ok] / [federated.07mu8pm1cfiesu14cz5m41h30yq2].[mn:issue_d:ok])</cols>
+      </table>
+      <simple-id uuid='{D29A005E-6D0F-4780-9B43-C5A8127C5842}' />
+    </worksheet>
+    <worksheet name='Loan Purpose by Loan Amount'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Loan Purpose by Loan Amount&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (pred_int)' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07mu8pm1cfiesu14cz5m41h30yq2'>
+            <column caption='Loan Amnt' datatype='integer' name='[loan_amnt]' role='measure' type='quantitative' />
+            <column-instance column='[purpose]' derivation='None' name='[none:purpose:nk]' pivot='key' type='nominal' />
+            <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+            <column-instance column='[loan_amnt]' derivation='Sum' name='[sum:loan_amnt:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]' />
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]' />
+              <text column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]' />
+              <text column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A1F3BB27-6E8E-40DD-9FBC-62D2C66D3DC3}' />
+    </worksheet>
+    <worksheet name='Total loan amount, Int Rate vs States'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Total Loan Amount, Int Rate V/s States&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (pred_int)' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.07mu8pm1cfiesu14cz5m41h30yq2'>
+            <column caption='Addr State' datatype='string' name='[addr_state]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[int_rate]' derivation='Avg' name='[avg:int_rate:qk]' pivot='key' type='quantitative' />
+            <column caption='Int Rate' datatype='real' name='[int_rate]' role='measure' type='quantitative' />
+            <column caption='Loan Amnt' datatype='integer' name='[loan_amnt]' role='measure' type='quantitative' />
+            <column-instance column='[addr_state]' derivation='None' name='[none:addr_state:nk]' pivot='key' type='nominal' />
+            <column-instance column='[loan_amnt]' derivation='Sum' name='[sum:loan_amnt:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[Longitude (generated)]' field-type='quantitative' max='30970265.519651975' min='25798907.455173891' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[Latitude (generated)]' field-type='quantitative' max='5603408.3698717849' min='1944428.5142167001' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#cecee5</color>
+                <color>#aeaeda</color>
+                <color>#9090ce</color>
+                <color>#7575c3</color>
+                <color>#5c5cb8</color>
+                <color>#4545ac</color>
+                <color>#3030a1</color>
+                <color>#1d1d95</color>
+                <color>#0d0d8a</color>
+                <color>#00007f</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]' />
+              <lod column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:addr_state:nk]' />
+              <lod column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]' />
+              <geometry column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[Latitude (generated)]</rows>
+        <cols>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{A3BE627C-7D16-4939-BFBD-FC3A3D1BFD75}' />
+    </worksheet>
+    <worksheet name='Verification Status by Number of Records'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='10'>&lt;Verification status by Number of Records&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (pred_int)' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07mu8pm1cfiesu14cz5m41h30yq2'>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Number of Records]' derivation='Count' name='[cnt:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column caption='Issue D' datatype='date' name='[issue_d]' role='dimension' type='ordinal' />
+            <column-instance column='[verification_status]' derivation='None' name='[none:verification_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[issue_d]' derivation='Month-Trunc' name='[tmn:issue_d:ok]' pivot='key' type='ordinal' />
+            <column caption='Verification Status' datatype='string' name='[verification_status]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[tmn:issue_d:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.07mu8pm1cfiesu14cz5m41h30yq2].[cnt:Number of Records:qk]</rows>
+        <cols>([federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:verification_status:nk] / [federated.07mu8pm1cfiesu14cz5m41h30yq2].[tmn:issue_d:ok])</cols>
+      </table>
+      <simple-id uuid='{E3559AE5-BD80-4C70-BB5A-9E5C4A777512}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Loan Analysis'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Sheet1 (pred_int)' name='federated.07mu8pm1cfiesu14cz5m41h30yq2' />
+      </datasources>
+      <datasource-dependencies datasource='federated.07mu8pm1cfiesu14cz5m41h30yq2'>
+        <column caption='Loan Status' datatype='string' name='[loan_status]' role='dimension' type='nominal' />
+        <column-instance column='[loan_status]' derivation='None' name='[none:loan_status:nk]' pivot='key' type='nominal' />
+        <column-instance column='[purpose]' derivation='None' name='[none:purpose:nk]' pivot='key' type='nominal' />
+        <column caption='Purpose' datatype='string' name='[purpose]' role='dimension' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98076' id='7' param='horz' type='layout-flow' w='99002' x='499' y='962'>
+            <zone h='98076' id='5' type='layout-basic' w='89027' x='499' y='962'>
+              <zone h='49038' id='3' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' w='28865' x='34726' y='962'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49038' id='11' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)' w='34227' x='499' y='962'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49038' id='14' name='Total loan amount, Int Rate vs States' w='26995' x='499' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49038' id='16' name='Verification Status by Number of Records' w='31016' x='27494' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49038' id='18' name='Interest Rate v/s Grades' w='25935' x='63591' y='962'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49038' id='20' name='Loan Purpose by Loan Amount' w='31016' x='58510' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98076' id='6' is-fixed='true' param='vert' type='layout-flow' w='9975' x='89526' y='962'>
+              <zone h='8414' id='8' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]' type='filter' w='9975' x='89526' y='962'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8414' id='9' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]' type='filter' w='9975' x='89526' y='9376'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10097' id='10' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' type='color' w='9975' x='89526' y='17790'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8414' id='12' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]' type='filter' w='9975' x='89526' y='27887'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='8414' id='13' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]' type='filter' w='9975' x='89526' y='36301'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9736' id='15' name='Total loan amount, Int Rate vs States' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]' type='color' w='9975' x='89526' y='44715'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='24754' id='17' name='Verification Status by Number of Records' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[tmn:issue_d:ok]' type='color' w='9975' x='89526' y='54451'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='10097' id='19' name='Interest Rate v/s Grades' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:term:nk]' type='color' w='9975' x='89526' y='79205'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='9736' id='21' name='Loan Purpose by Loan Amount' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]' type='color' w='9975' x='89526' y='89302'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2300' minheight='2300' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98076' id='26' param='vert' type='layout-flow' w='99002' x='499' y='962'>
+                <zone h='8414' id='12' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]' type='filter' w='9975' x='89526' y='27887'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8414' id='13' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]' type='filter' w='9975' x='89526' y='36301'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49038' id='11' is-fixed='true' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)' w='34227' x='499' y='962'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8414' id='8' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]' type='filter' w='9975' x='89526' y='962'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8414' id='9' mode='dropdown' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]' type='filter' w='9975' x='89526' y='9376'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49038' id='3' is-fixed='true' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' w='28865' x='34726' y='962'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10097' id='10' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' type='color' w='9975' x='89526' y='17790'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49038' id='18' is-fixed='true' name='Interest Rate v/s Grades' w='25935' x='63591' y='962'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10097' id='19' name='Interest Rate v/s Grades' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:term:nk]' type='color' w='9975' x='89526' y='79205'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49038' id='14' is-fixed='true' name='Total loan amount, Int Rate vs States' w='26995' x='499' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9736' id='15' name='Total loan amount, Int Rate vs States' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]' type='color' w='9975' x='89526' y='44715'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49038' id='16' is-fixed='true' name='Verification Status by Number of Records' w='31016' x='27494' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='24754' id='17' name='Verification Status by Number of Records' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[tmn:issue_d:ok]' type='color' w='9975' x='89526' y='54451'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49038' id='20' is-fixed='true' name='Loan Purpose by Loan Amount' w='31016' x='58510' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9736' id='21' name='Loan Purpose by Loan Amount' pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]' type='color' w='9975' x='89526' y='89302'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EA2573E1-CD05-4812-BFE9-2DFDB517AF2D}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{556106F9-E8F1-4610-AB30-BC0F1F9DDC35}' />
+    </window>
+    <window class='worksheet' name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:loan_status:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:purpose:nk]' type='filter' />
+            <card pane-specification-id='1' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DA506374-52AF-4616-B691-6E396D073272}' />
+    </window>
+    <window class='worksheet' name='Total loan amount, Int Rate vs States'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[avg:int_rate:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F4A61086-1A8E-4D0B-BDD5-E9409DB585B5}' />
+    </window>
+    <window class='worksheet' name='Verification Status by Number of Records'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[tmn:issue_d:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8109D17D-BFE3-442D-BE2B-4D5254FC59BD}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Interest Rate v/s Grades'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[none:term:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CA095029-B3D0-4A9C-8CBB-EF99AC73F159}' />
+    </window>
+    <window class='worksheet' name='Loan Purpose by Loan Amount'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07mu8pm1cfiesu14cz5m41h30yq2].[sum:loan_amnt:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{339786C9-33E5-473F-B5D9-192233335134}' />
+    </window>
+    <window class='dashboard' name='Loan Analysis'>
+      <viewpoints>
+        <viewpoint name='Interest Rate v/s Grades'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Loan Grade &amp; Avg Interest Rate by Purpose and Loan Status (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Loan Purpose by Loan Amount' />
+        <viewpoint name='Total loan amount, Int Rate vs States'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Verification Status by Number of Records'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='18' />
+      <simple-id uuid='{F0D18410-057A-4EAD-A69D-A8F7D3707D12}' />
+    </window>
+  </windows>
+</workbook>
