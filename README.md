@@ -18,8 +18,7 @@ Notebook to Implement Feature Tools , Notebook to Select Features using LassoCV
 
 ### Models: 
 This Folder Contains Sub-Folders with Notebooks to implement:
-
-#### Linear Regression
-#### Random Forests
-#### Neural Networks
-#### Implement AutoML using AutoSKLearm, H20.ai and Tpot
+ - Linear Regression
+ - Random Forests
+ - Neural Networks
+ - Implement AutoML using AutoSKLearm, H20.ai and Tpot
